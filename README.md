@@ -16,3 +16,7 @@ Esta API tiene 7 endpoints:
 - "https://127.0.0.1/api/favorites/{character_id}": Este endpoint es de tipo DELETE y sirve para poder eliminar un personaje específico del listado de favoritos. Como en el caso anterior, se necesita tener el token y la sesión iniciada.
 - "https://127.0.0.1/api/characters": Este endpoint es de tipo GET y devuelve el listado completo de personajes de la API externa.
 - "https://127.0.0.1/api/character/{character_id}": Este endpoint es de tipo GET y devuelve los datos específicos de un personaje, a través del 'character_id'.
+
+## IMPORTANTE
+
+La API actualmente no tiene interfaz gráfica. Solamente funciona el backend con sus endpoints. Para poder probar la API es necesario usar Postman.
